@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/surge-yokote-app/sw.js', { scope: '/surge-yokote-app/' })})}
